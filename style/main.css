@@ -1,0 +1,46 @@
+.content {
+  background: #e7e9eb;
+}
+
+#content {
+  padding-left: 10px;
+  padding-top: 10px;
+  left: 80px;
+}
+
+.main-menu {
+  width: 80px;
+  height: 100%;
+  background: #323949;
+  color: white;
+  position: absolute;
+}
+
+.main-menu > ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  text-align: center;
+  padding-left: 0;
+  list-style: none;
+  z-index: 4;
+}
+
+.main-menu > ul > li {
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  border-bottom: 1px solid #5d6370;
+  height: 60px;
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 11%;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.main-menu > ul > li.active {
+  color: #5dade2;
+  background: #25272C;
+}
+

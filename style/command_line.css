@@ -1,0 +1,41 @@
+.command-line {
+  position: relative;
+  top: 0;
+  left: 80px;
+  width: 100%;
+  z-index: 4;
+  background-color: rgb(100, 100, 100);
+  color: rgb(248, 248, 248);
+  font-size: 22pt;
+  min-height: 40px;
+  padding-top: 5px;
+}
+
+.command-line-prompt {
+  font-family: monospace;
+  content: ">";
+  position: relative;
+  left: 10px;
+  top: 3px;
+  float: left;
+  cursor: pointer;
+}
+
+.command-line-prompt:hover {
+  color: #fdba52;
+}
+
+.command-line-input {
+  font-family: monospace;
+  display: inline-block;
+  width: calc(100% - 40px);
+  height: 22pt;
+  outline: 0px solid transparent;
+  position: relative;
+  left: 15px;
+}
+
+.command-line-stuff {
+  color: #CCC;
+}
+
